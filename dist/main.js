@@ -1,4 +1,5 @@
 jQuery(document).ready(function($){
+
 	var slidesWrapper = $('.cd-hero-slider');
 
 	//check if a .cd-hero-slider exists in the DOM
@@ -47,6 +48,8 @@ jQuery(document).ready(function($){
 			}
 		});
 	}
+
+
 
 	function nextSlide(visibleSlide, container, pagination, n){
 		visibleSlide.removeClass('selected from-left from-right').addClass('is-moving').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
@@ -129,4 +132,6 @@ jQuery(document).ready(function($){
 	    });
 	    return this;
 	};
+
+	console.log('!!!!!0')
 });

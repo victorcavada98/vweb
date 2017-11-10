@@ -16,16 +16,16 @@ const Slider = () => {
 				<div className="cd-hero">
 					<ul className="cd-hero-slider">
 
-						//video.js
+
 						<Video />
 
-						//projects.js
+
 						<Projects />
 
-						//about.js
+
 						<About />
 
-						//work.js
+						
 						<Work />
 
 						<li>
